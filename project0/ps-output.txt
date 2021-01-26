@@ -1,0 +1,178 @@
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 19:09 ?        00:00:02 /sbin/init splash
+root           2       0  0 19:09 ?        00:00:00 [kthreadd]
+root           3       2  0 19:09 ?        00:00:00 [rcu_gp]
+root           4       2  0 19:09 ?        00:00:00 [rcu_par_gp]
+root           6       2  0 19:09 ?        00:00:00 [kworker/0:0H-kblockd]
+root           9       2  0 19:09 ?        00:00:00 [mm_percpu_wq]
+root          10       2  0 19:09 ?        00:00:00 [ksoftirqd/0]
+root          11       2  0 19:09 ?        00:00:00 [rcu_sched]
+root          12       2  0 19:09 ?        00:00:00 [migration/0]
+root          13       2  0 19:09 ?        00:00:00 [idle_inject/0]
+root          14       2  0 19:09 ?        00:00:00 [cpuhp/0]
+root          15       2  0 19:09 ?        00:00:00 [kdevtmpfs]
+root          16       2  0 19:09 ?        00:00:00 [netns]
+root          17       2  0 19:09 ?        00:00:00 [rcu_tasks_kthre]
+root          18       2  0 19:09 ?        00:00:00 [rcu_tasks_rude_]
+root          19       2  0 19:09 ?        00:00:00 [rcu_tasks_trace]
+root          20       2  0 19:09 ?        00:00:00 [kauditd]
+root          21       2  0 19:09 ?        00:00:00 [khungtaskd]
+root          22       2  0 19:09 ?        00:00:00 [oom_reaper]
+root          23       2  0 19:09 ?        00:00:00 [writeback]
+root          24       2  0 19:09 ?        00:00:00 [kcompactd0]
+root          25       2  0 19:09 ?        00:00:00 [ksmd]
+root          26       2  0 19:09 ?        00:00:00 [khugepaged]
+root          72       2  0 19:09 ?        00:00:00 [kintegrityd]
+root          73       2  0 19:09 ?        00:00:00 [kblockd]
+root          74       2  0 19:09 ?        00:00:00 [blkcg_punt_bio]
+root          75       2  0 19:09 ?        00:00:00 [tpm_dev_wq]
+root          76       2  0 19:09 ?        00:00:00 [ata_sff]
+root          77       2  0 19:09 ?        00:00:00 [md]
+root          78       2  0 19:09 ?        00:00:00 [edac-poller]
+root          79       2  0 19:09 ?        00:00:00 [devfreq_wq]
+root          80       2  0 19:09 ?        00:00:00 [watchdogd]
+root          81       2  0 19:09 ?        00:00:00 [kworker/u2:1-events_unbound]
+root          82       2  0 19:09 ?        00:00:00 [pm_wq]
+root          84       2  0 19:09 ?        00:00:00 [kswapd0]
+root          85       2  0 19:09 ?        00:00:00 [ecryptfs-kthrea]
+root          87       2  0 19:09 ?        00:00:00 [kthrotld]
+root          88       2  0 19:09 ?        00:00:00 [acpi_thermal_pm]
+root          89       2  0 19:09 ?        00:00:00 [scsi_eh_0]
+root          90       2  0 19:09 ?        00:00:00 [scsi_tmf_0]
+root          91       2  0 19:09 ?        00:00:00 [scsi_eh_1]
+root          92       2  0 19:09 ?        00:00:00 [scsi_tmf_1]
+root          94       2  0 19:09 ?        00:00:00 [vfio-irqfd-clea]
+root          95       2  0 19:09 ?        00:00:00 [kworker/u2:3-ext4-rsv-conversion]
+root          96       2  0 19:09 ?        00:00:00 [ipv6_addrconf]
+root         105       2  0 19:09 ?        00:00:00 [kstrp]
+root         108       2  0 19:09 ?        00:00:00 [zswap-shrink]
+root         109       2  0 19:09 ?        00:00:00 [kworker/u3:0]
+root         114       2  0 19:09 ?        00:00:00 [charger_manager]
+root         155       2  0 19:09 ?        00:00:00 [kworker/0:2-events]
+root         158       2  0 19:09 ?        00:00:00 [scsi_eh_2]
+root         159       2  0 19:09 ?        00:00:00 [scsi_tmf_2]
+root         161       2  0 19:09 ?        00:00:00 [kworker/0:1H-kblockd]
+root         181       2  0 19:09 ?        00:00:00 [jbd2/sda5-8]
+root         182       2  0 19:09 ?        00:00:00 [ext4-rsv-conver]
+root         221       1  0 19:09 ?        00:00:00 /lib/systemd/systemd-journald
+root         242       1  0 19:09 ?        00:00:00 /lib/systemd/systemd-udevd
+root         243       2  0 19:09 ?        00:00:00 [irq/18-vmwgfx]
+root         244       2  0 19:09 ?        00:00:00 [ttm_swap]
+root         253       2  0 19:09 ?        00:00:00 [loop0]
+root         255       2  0 19:09 ?        00:00:00 [loop1]
+root         275       2  0 19:09 ?        00:00:00 [loop2]
+root         277       2  0 19:09 ?        00:00:00 [loop3]
+root         280       2  0 19:09 ?        00:00:00 [loop4]
+root         309       2  0 19:09 ?        00:00:00 [cryptd]
+systemd+     397       1  0 19:09 ?        00:00:00 /lib/systemd/systemd-resolved
+systemd+     422       1  0 19:09 ?        00:00:00 /lib/systemd/systemd-timesyncd
+root         429       1  0 19:09 ?        00:00:00 /usr/lib/accountsservice/accounts-daemon
+root         430       1  0 19:09 ?        00:00:00 /usr/sbin/acpid
+root         431       1  0 19:09 ?        00:00:00 /usr/sbin/anacron -d -q -s
+avahi        433       1  0 19:09 ?        00:00:00 avahi-daemon: running [ben-VirtualBox.local]
+root         436       1  0 19:09 ?        00:00:00 /usr/sbin/cron -f
+root         438       1  0 19:09 ?        00:00:00 /usr/sbin/cupsd -l
+message+     440       1  0 19:09 ?        00:00:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         441       1  0 19:09 ?        00:00:00 /usr/sbin/NetworkManager --no-daemon
+root         458       1  0 19:09 ?        00:00:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         462       1  0 19:09 ?        00:00:00 /usr/lib/policykit-1/polkitd --no-debug
+syslog       468       1  0 19:09 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+root         473       1  0 19:09 ?        00:00:00 /usr/libexec/switcheroo-control
+root         474       1  0 19:09 ?        00:00:00 /lib/systemd/systemd-logind
+root         476       1  0 19:09 ?        00:00:00 /usr/lib/udisks2/udisksd
+root         482       1  0 19:09 ?        00:00:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi        498     433  0 19:09 ?        00:00:00 avahi-daemon: chroot helper
+root         517       2  0 19:09 ?        00:00:00 [kworker/0:4-events]
+root         524       1  0 19:09 ?        00:00:00 /usr/sbin/cups-browsed
+root         538       1  0 19:09 ?        00:00:00 /usr/sbin/ModemManager --filter-policy=strict
+root         563       1  0 19:09 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+whoopsie     601       1  0 19:09 ?        00:00:00 /usr/bin/whoopsie -f
+kernoops     603       1  0 19:09 ?        00:00:00 /usr/sbin/kerneloops --test
+kernoops     609       1  0 19:09 ?        00:00:00 /usr/sbin/kerneloops
+root         771       1  0 19:09 ?        00:00:00 /usr/sbin/gdm3
+root         786       1  0 19:09 ?        00:00:00 /usr/sbin/VBoxService --pidfile /var/run/vboxadd-service.sh
+root         795     771  0 19:09 ?        00:00:00 gdm-session-worker [pam/gdm-autologin]
+ben          800       1  0 19:09 ?        00:00:00 /lib/systemd/systemd --user
+ben          801     800  0 19:09 ?        00:00:00 (sd-pam)
+ben          807     800  0 19:09 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+ben          809     800  0 19:09 ?        00:00:00 /usr/libexec/tracker-miner-fs
+ben          811       1  0 19:09 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+ben          816     795  0 19:09 tty2     00:00:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+ben          818     816  0 19:09 tty2     00:00:01 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+ben          820     800  0 19:09 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ben          824     800  0 19:09 ?        00:00:00 /usr/libexec/gvfsd
+ben          829     800  0 19:09 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+ben          832     800  0 19:09 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+rtkit        851       1  0 19:09 ?        00:00:00 /usr/libexec/rtkit-daemon
+ben          856     800  0 19:09 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+ben          861     800  0 19:09 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+ben          865     800  0 19:09 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+ben          869     800  0 19:09 ?        00:00:00 /usr/libexec/goa-daemon
+ben          886     800  0 19:09 ?        00:00:00 /usr/libexec/goa-identity-service
+ben          888     800  0 19:09 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+root         896       1  0 19:09 ?        00:00:00 /usr/lib/upower/upowerd
+ben          902     816  0 19:09 tty2     00:00:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+ben          987       1  0 19:09 ?        00:00:00 /usr/bin/VBoxClient --clipboard
+ben          988     987  0 19:09 ?        00:00:00 /usr/bin/VBoxClient --clipboard
+ben          999       1  0 19:09 ?        00:00:00 /usr/bin/VBoxClient --seamless
+ben         1000     999  0 19:09 ?        00:00:00 /usr/bin/VBoxClient --seamless
+ben         1006       1  0 19:09 ?        00:00:00 /usr/bin/VBoxClient --draganddrop
+ben         1007    1006  0 19:09 ?        00:00:00 /usr/bin/VBoxClient --draganddrop
+ben         1014       1  0 19:09 ?        00:00:00 /usr/bin/VBoxClient --vmsvga
+ben         1015    1014  0 19:09 ?        00:00:00 /usr/bin/VBoxClient --vmsvga
+ben         1021     902  0 19:09 ?        00:00:00 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+ben         1053     800  0 19:09 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+ben         1058    1053  0 19:09 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+ben         1071     800  0 19:09 ?        00:00:00 /usr/libexec/gnome-session-ctl --monitor
+ben         1077     800  0 19:09 ?        00:00:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+ben         1092     800  1 19:09 ?        00:00:08 /usr/bin/gnome-shell
+ben         1115    1092  0 19:09 ?        00:00:00 ibus-daemon --panel disable --xim
+ben         1119    1115  0 19:09 ?        00:00:00 /usr/libexec/ibus-memconf
+ben         1120    1115  0 19:09 ?        00:00:00 /usr/libexec/ibus-extension-gtk3
+ben         1124     800  0 19:09 ?        00:00:00 /usr/libexec/ibus-x11 --kill-daemon
+ben         1126     800  0 19:09 ?        00:00:00 /usr/libexec/ibus-portal
+ben         1137     800  0 19:09 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+ben         1141     800  0 19:09 ?        00:00:00 /usr/libexec/xdg-permission-store
+ben         1146     800  0 19:09 ?        00:00:00 /usr/libexec/gnome-shell-calendar-server
+ben         1152     800  0 19:09 ?        00:00:00 /usr/libexec/evolution-source-registry
+ben         1162     800  0 19:09 ?        00:00:00 /usr/libexec/evolution-calendar-factory
+ben         1170     800  0 19:09 ?        00:00:00 /usr/libexec/dconf-service
+ben         1176     800  0 19:09 ?        00:00:00 /usr/libexec/evolution-addressbook-factory
+root        1194       1  0 19:10 ?        00:00:00 /usr/lib/packagekit/packagekitd
+ben         1204     800  0 19:10 ?        00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+ben         1205     824  0 19:10 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+ben         1222     800  0 19:10 ?        00:00:00 /usr/libexec/gsd-a11y-settings
+ben         1223     800  0 19:10 ?        00:00:00 /usr/libexec/gsd-color
+ben         1225     800  0 19:10 ?        00:00:00 /usr/libexec/gsd-datetime
+ben         1227     800  0 19:10 ?        00:00:00 /usr/libexec/gsd-housekeeping
+ben         1231     800  0 19:10 ?        00:00:00 /usr/libexec/gsd-keyboard
+ben         1232     800  0 19:10 ?        00:00:00 /usr/libexec/gsd-media-keys
+ben         1233     800  0 19:10 ?        00:00:00 /usr/libexec/gsd-power
+ben         1237     800  0 19:10 ?        00:00:00 /usr/libexec/gsd-print-notifications
+ben         1241     800  0 19:10 ?        00:00:00 /usr/libexec/gsd-rfkill
+ben         1243     800  0 19:10 ?        00:00:00 /usr/libexec/gsd-screensaver-proxy
+ben         1245     800  0 19:10 ?        00:00:00 /usr/libexec/gsd-sharing
+ben         1249     800  0 19:10 ?        00:00:00 /usr/libexec/gsd-smartcard
+ben         1251     800  0 19:10 ?        00:00:00 /usr/libexec/gsd-sound
+ben         1253     800  0 19:10 ?        00:00:00 /usr/libexec/gsd-usb-protection
+ben         1257     800  0 19:10 ?        00:00:00 /usr/libexec/gsd-wacom
+ben         1267     800  0 19:10 ?        00:00:00 /usr/libexec/gsd-wwan
+ben         1270     800  0 19:10 ?        00:00:00 /usr/libexec/gsd-xsettings
+ben         1275    1077  0 19:10 ?        00:00:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+ben         1288    1115  0 19:10 ?        00:00:00 /usr/libexec/ibus-engine-simple
+ben         1295    1077  0 19:10 ?        00:00:00 /usr/libexec/gsd-disk-utility-notify
+ben         1315     800  0 19:10 ?        00:00:00 /usr/libexec/gsd-printer
+colord      1327       1  0 19:10 ?        00:00:00 /usr/libexec/colord
+root        1503       2  0 19:10 ?        00:00:00 [loop5]
+root        1597       2  0 19:10 ?        00:00:00 [loop6]
+root        1602       1  2 19:10 ?        00:00:14 /usr/lib/snapd/snapd
+root        1781       2  0 19:10 ?        00:00:00 [loop7]
+ben         1803     800  0 19:10 ?        00:00:00 /usr/bin/seahorse --gapplication-service
+root        2000       2  0 19:10 ?        00:00:00 [loop8]
+ben         2074     800  0 19:10 ?        00:00:00 /usr/libexec/gvfsd-metadata
+ben         2121     800  0 19:10 ?        00:00:00 /usr/libexec/gnome-terminal-server
+root        2288       2  0 19:10 ?        00:00:00 [loop9]
+ben         2356    2121  0 19:10 pts/0    00:00:00 bash
+ben         2770    1077  0 19:11 ?        00:00:00 update-notifier
+root        4586       2  0 19:15 ?        00:00:00 [kworker/u2:0-ext4-rsv-conversion]
+ben         4840    2356  0 19:18 pts/0    00:00:00 ps -ef
