@@ -1,0 +1,8 @@
+I selected dashlane as my password manager. It alongside 1password and LastPass
+were the password managers I was previously familiar. I have a startup which I 
+am the tech lead for so I was also evaluating the password managers for my 
+company. This is why I selected dashlane as it seemed to have the best / most 
+user friendly solution from a admin pespective. I especially liked its distinctions 
+of "vaults" which let users have personal password vaults for their facebook, 
+password vaults for their company emails and other credentials, as well as shared
+vaults for credentials such as our company socials.
