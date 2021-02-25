@@ -2,3 +2,6 @@ chmod 755 /usr/bin/sha1sum
 chmod 755 /usr/bin/bash
 chmod 755 /usr/bin/ls
 chmod go-w /bin/passwd
+chown root /var/log/apt
+chmod 552 /var/log/lastlog
+chmod 755 /bin/bash
