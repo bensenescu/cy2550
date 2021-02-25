@@ -3,5 +3,4 @@ chmod 755 /usr/bin/bash
 chmod 755 /usr/bin/ls
 chmod go-w /bin/passwd
 chown root:root /var/log/apt
-chmod 652 /var/log/lastlog
-chmod 755 /bin/bash
+chmod 662 /var/log/lastlog
