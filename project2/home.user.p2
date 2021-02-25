@@ -1,0 +1,17 @@
+#include <tunables/global>
+/home/ben/cy2550/project2/p2 {
+  #include <abstractions/base>
+  /home/ben/cy2550/project2/p2 mr,
+  /tmp/project* rw,
+  /var/log/syslog r,
+  /run/systemd/resolve/stub-resolv.conf r,
+  @{HOME}/cy2550/project2/template r,
+  network tcp,
+  @{HOME}/.project2/config rw,
+  /proc/version r,
+  /proc/buddyinfo r,
+  /etc/fstab r,
+  /etc/crontab r,
+  /etc/passwd r,
+  /etc/hosts r,
+}
