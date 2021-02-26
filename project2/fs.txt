@@ -5,3 +5,4 @@ chmod go-w /bin/passwd
 chown root:root /var/log/apt
 chown root:root /usr/local/share/man
 chmod 664 /var/log/lastlog
+chmod 755 home/bob
