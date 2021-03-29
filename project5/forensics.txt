@@ -3,3 +3,4 @@
 Mar 25 09:00:30
 /hello
 /root/bathe-furling-graven-1.sh
+/usr/bin/mesg
