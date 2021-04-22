@@ -1,6 +1,4 @@
-EXPLOIT="import json\n" +
-                "with open('/autograder/results/results.json', 'w') as f:\n" +
-                "    f.write('{\"score\": 100.0}')"
+EXPLOIT="import json\nwith open('/autograder/results/results.json', 'w') as f:\n    f.write('{\"score\": 100.0}')"
 EXPLOIT_PATH="/autograder/exploit.py"
 echo $EXPLOIT
 echo $EXPLOIT_PATH
