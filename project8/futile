@@ -3,3 +3,5 @@ EXPLOIT_PATH="/autograder/exploit.py"
 echo $EXPLOIT
 echo $EXPLOIT_PATH
 
+if test -f "$EXPLOIT_PATH"; then
+    echo "exists"
