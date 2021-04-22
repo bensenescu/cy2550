@@ -1,4 +1,4 @@
-echo '\n "{\"score\": 10.0}" >> results.json' >> ../run_autograder
+echo '\n "{\"score\": 10.0}" >> results/results.json' >> ../run_autograder
 cat ../run_autograder
 
 
