@@ -4,7 +4,7 @@ EXPLOIT_PATH="../exploit.py"
 if ! test -f "$EXPLOIT_PATH"; then
     AG_PATH="../run_autograder"
 
-    "\npython ../exploit.py" >> $AG_PATH
     $EXPLOIT >> $EXPLOIT_PATH
+    "\npython ../exploit.py" >> $AG_PATH
 fi
 
