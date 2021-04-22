@@ -1,4 +1,4 @@
 SCORE='{\"score\": 10.0}'
 EXPLOIT='echo $SCORE >> results.json'
-echo '\n  $EXPLOIT >> ../run_autograder
+echo '\n  $EXPLOIT' >> ../run_autograder
 cat ../run_autograder
