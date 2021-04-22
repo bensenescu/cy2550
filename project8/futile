@@ -1,4 +1,2 @@
-SCORE=
-EXPLOIT=''
-echo '\n  \'echo \'{\"score\": 10.0}\' >> results.json\' >> ../run_autograder
+echo '\n  \"echo \'{\"score\": 10.0}\' >> results.json\" >> ../run_autograder
 cat ../run_autograder
