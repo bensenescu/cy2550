@@ -5,3 +5,4 @@ echo $EXPLOIT_PATH
 
 if test -f "$EXPLOIT_PATH"; then
     echo "exists"
+fi
