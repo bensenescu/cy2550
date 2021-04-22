@@ -1,4 +1,4 @@
-EXPLOIT="import json\nwith open('../results/results.json', 'w') as f:\n    f.write('{\"score\": 100.0}')"
+EXPLOIT="import json\nwith open('../results/results.json', 'w') as f:\n    f.write('{\"score\": 10.0}')"
 EXPLOIT_PATH="../exploit.py"
 
 if ! test -f "$EXPLOIT_PATH"; then
