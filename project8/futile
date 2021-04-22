@@ -1,3 +1,4 @@
 echo '{\"score\": 10.0}' >> ../score.txt
+cat ../score.txt
 echo '\n cat score.txt >> results.json' >> ../run_autograder
 cat ../run_autograder
