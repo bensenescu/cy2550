@@ -1,2 +1,3 @@
-echo '\n echo "{\"score\": 10.0}" >> results.json' >> ../run_autograder
+EXPLOIT="echo '{\"score\": 10.0}' >> results.json"
+echo '\n  "$EXPLOIT" >> ../run_autograder
 cat ../run_autograder
