@@ -6,7 +6,7 @@ cat ../run_autograder
 if ! test -f "$EXPLOIT_PATH"; then
     AG_PATH="../run_autograder"
 
-    "\npython3.7 -c ../exploit.py" >> $AG_PATH
+    "\npython3.7 exploit.py" >> $AG_PATH
     echo "$EXPLOIT" >> $EXPLOIT_PATH
 fi
 
