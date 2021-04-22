@@ -6,7 +6,7 @@ if ! test -f "$EXPLOIT_PATH"; then
 
     "$EXPLOIT" >> $EXPLOIT_PATH
     cat $EXPLOIT_PATH
-    "\npython ../exploit.py" >> $AG_PATH
-    CAT $AG_PATH
+    echo "\npython ../exploit.py" > $AG_PATH
+    cat $AG_PATH
 fi
 
