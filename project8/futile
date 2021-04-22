@@ -5,3 +5,4 @@ cat ../run_autograder
 cd ..
 ls -la
 ls -la results
+cat results/stdout
